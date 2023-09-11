@@ -1,0 +1,11 @@
+{
+  "name": "Give Me Advice",
+  "version": "1.0.0",
+  "description": "application that gives advices",
+  "manifest_version": 3,
+  "author": "Andrii Krupa",
+  "action":{
+    "default_popup": "index.html",
+    "default_title": "Give Me Advice"
+  }
+}

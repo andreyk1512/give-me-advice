@@ -1,0 +1,33 @@
+body {
+    background-color: #000;
+}
+
+.container {
+    min-width: 450px;
+    min-height: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#advice {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #FFF;
+}
+
+#loader {
+    animation: circle 6s linear infinite;
+}
+
+@keyframes circle{
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
